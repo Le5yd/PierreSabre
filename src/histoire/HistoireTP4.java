@@ -1,6 +1,6 @@
 package histoire;
 
-import personnages.Humain;
+import personnages.*;
 
 public class HistoireTP4 {
 
