@@ -7,10 +7,10 @@ public class Commercant extends Humain {
 	}
 
 	public int seFaireExtorquer() {
-		int argentPerdu = argent;
-		perdreArgent(argentPerdu);
+		int perte = argent;
+		perdreArgent(perte);
 		parler("J'ai tout perdu! Le monde est trop injuste...");
-		return argentPerdu;
+		return perte;
 	}
 
 	public void recevoir(int argent) {
