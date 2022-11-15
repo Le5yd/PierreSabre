@@ -27,7 +27,9 @@ public class Ronin extends Humain {
 			int perte = argent;
 			adversaire.gagner(perte);
 			argent -= perte;
-			honneur--;
+			if (honneur > 1) {
+				honneur--;
+			}
 		}
 	}
 }
