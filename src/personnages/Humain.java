@@ -1,4 +1,4 @@
-ackage personnages;
+package personnages;
 
 public class Humain {
 	protected String nom;
