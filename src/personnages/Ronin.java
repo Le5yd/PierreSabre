@@ -1,4 +1,4 @@
-ackage personnages;
+package personnages;
 
 public class Ronin extends Humain {
 	private int honneur = 1;
