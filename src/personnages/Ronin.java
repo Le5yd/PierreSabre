@@ -21,13 +21,13 @@ public class Ronin extends Humain {
 			parler("Je t'ai eu petit yakuza!");
 			int gain = adversaire.perdre();
 			argent += gain;
-			honneur += 1;
+			honneur++;
 		} else {
 			parler("J'ai perdu contre ce yakuza, mon honneur et ma bourse en ont pris un coup.");
 			int perte = argent;
 			adversaire.gagner(perte);
 			argent -= perte;
-			honneur -= 1;
+			honneur--;
 		}
 	}
 }
