@@ -1,4 +1,4 @@
-package personnages;
+ackage personnages;
 
 import java.util.Random;
 
