@@ -40,6 +40,9 @@ public class Humain {
 
 	public void perdreArgent(int perte) {
 		argent -= perte;
+		if (argent < 0) {
+			argent = 0;
+		}
 	}
 
 	public void acheter(String bien, int prix) {
